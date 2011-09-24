@@ -1,0 +1,136 @@
+[0m[[0minfo[0m] [0mSet current project to web (in build file:/home/chrs/Desktop/xsbt_alias_bug/)[0m
+[0m[[31merror[0m] [0mNot a valid command: jetty-r (similar: jetty-run, jetty-reload, jetty-stop)[0m
+[0m[[31merror[0m] [0mNot a valid project ID: jetty-r[0m
+[0m[[31merror[0m] [0mNot a valid configuration: jetty-r[0m
+[0m[[31merror[0m] [0mNot a valid key: jetty-r (similar: jetty-port, jetty-scan-dirs, jetty-context)[0m
+[0m[[31merror[0m] [0mjetty-r[0m
+[0m[[31merror[0m] [0m       ^[0m
+[0m[[31merror[0m] [0mNot a valid command: jetty-runn (similar: jetty-run, jetty-reload, jetty-stop)[0m
+[0m[[31merror[0m] [0mNot a valid project ID: jetty-runn[0m
+[0m[[31merror[0m] [0mNot a valid configuration: jetty-runn[0m
+[0m[[31merror[0m] [0mNot a valid key: jetty-runn (similar: jetty-port, jetty-context)[0m
+[0m[[31merror[0m] [0mjetty-runn[0m
+[0m[[31merror[0m] [0m          ^[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.server.Server@31e2fde6 + SelectChannelConnector@0.0.0.0:8080 as connector[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.server.Server@31e2fde6 + o.e.j.w.WebAppContext{/,null},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp as handler[0m
+[0m[[0mdebug[0m] [0mContainer o.e.j.w.WebAppContext{/,null},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp + org.eclipse.jetty.servlet.ErrorPageErrorHandler@1f16ebd3 as error[0m
+[0m[[0mdebug[0m] [0mScanning for changes to: /home/chrs/Desktop/xsbt_alias_bug/web/target/webapp[0m
+[0m[[0mdebug[0m] [0mStarting org.eclipse.jetty.server.Server@31e2fde6[0m
+[0m[[0minfo[0m] [0mjetty-7.3.0.v20110203[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.server.Server@31e2fde6 + qtp1178005728{8<=0<=0/254,-1} as threadpool[0m
+[0m[[0mdebug[0m] [0mStarting o.e.j.w.WebAppContext{/,null},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp[0m
+[0m[[0mdebug[0m] [0mThread Context class loader is: WebAppClassLoader=58324694@379f6d6[0m
+[0m[[0mdebug[0m] [0mParent class loader is: java.net.URLClassLoader@59fc7921[0m
+[0m[[0mdebug[0m] [0mParent class loader is: java.net.URLClassLoader@fee4648[0m
+[0m[[0mdebug[0m] [0mParent class loader is: java.net.URLClassLoader@687b6889[0m
+[0m[[0mdebug[0m] [0mParent class loader is: xsbt.boot.BootFilteredLoader@7e0c2ff5[0m
+[0m[[0mdebug[0m] [0mParent class loader is: sun.misc.Launcher$AppClassLoader@12360be0[0m
+[0m[[0mdebug[0m] [0mParent class loader is: sun.misc.Launcher$ExtClassLoader@1a45a877[0m
+[0m[[0mdebug[0m] [0mSet temp dir /tmp/jetty-0.0.0.0-8080-webapp-_-any-[0m
+[0m[[0mdebug[0m] [0mTry webapp=file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/, exists=true, directory=true[0m
+[0m[[0mdebug[0m] [0mwebapp=file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/[0m
+[0m[[0mdebug[0m] [0mparse: jar:file:/home/chrs/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-7.3.0.v20110203.jar!/org/eclipse/jetty/webapp/webdefault.xml[0m
+[0m[[0mdebug[0m] [0mparsing: sid=jar:file:/home/chrs/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-7.3.0.v20110203.jar!/org/eclipse/jetty/webapp/webdefault.xml,pid=null[0m
+[0m[[0mdebug[0m] [0mjar:file:/home/chrs/.ivy2/cache/org.eclipse.jetty/jetty-webapp/jars/jetty-webapp-7.3.0.v20110203.jar!/org/eclipse/jetty/webapp/webdefault.xml: Calculated metadatacomplete = True with version=2.5[0m
+[0m[[0mdebug[0m] [0mNo WEB-INF/web.xml in /home/chrs/Desktop/xsbt_alias_bug/web/target/webapp. Serving files and default/dynamic servlets only[0m
+[0m[[0mdebug[0m] [0mSearch of file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/WEB-INF/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0mPath resource=file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/WEB-INF/lib/scala-library.jar[0m
+[0m[[0mdebug[0m] [0mConfiguring web-jetty.xml[0m
+[0m[[0mdebug[0m] [0mfilterNameMap={}[0m
+[0m[[0mdebug[0m] [0mpathFilters=null[0m
+[0m[[0mdebug[0m] [0mservletFilterMap=null[0m
+[0m[[0mdebug[0m] [0mservletPathMap={/=default}[0m
+[0m[[0mdebug[0m] [0mservletNameMap={default=default}[0m
+[0m[[0minfo[0m] [0mNO JSP Support for /, did not find org.apache.jasper.servlet.JspServlet[0m
+[0m[[0mdebug[0m] [0mfilterNameMap={}[0m
+[0m[[0mdebug[0m] [0mpathFilters=null[0m
+[0m[[0mdebug[0m] [0mservletFilterMap=null[0m
+[0m[[0mdebug[0m] [0mservletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, *.xsp=jsp, /=default, *.JSP=jsp}[0m
+[0m[[0mdebug[0m] [0mservletNameMap={jsp=jsp, default=default}[0m
+[0m[[0mdebug[0m] [0mContainer o.e.j.w.WebAppContext{/,file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp + org.eclipse.jetty.server.session.SessionHandler@49bee849 as handler[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.servlet.ServletHandler@14843672 + default as servlet[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.servlet.ServletHandler@14843672 + jsp as servlet[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.servlet.ServletHandler@14843672 + [/]=>default as servletMapping[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.servlet.ServletHandler@14843672 + [*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]=>jsp as servletMapping[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.security.ConstraintSecurityHandler@741280e3 + org.eclipse.jetty.servlet.ServletHandler@14843672 as handler[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.server.session.SessionHandler@49bee849 + org.eclipse.jetty.security.ConstraintSecurityHandler@741280e3 as handler[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.server.session.SessionHandler@49bee849 + org.eclipse.jetty.server.session.HashSessionManager@6acbf29d as sessionManager[0m
+[0m[[0mdebug[0m] [0mStarting org.eclipse.jetty.server.session.SessionHandler@49bee849[0m
+[0m[[0mdebug[0m] [0mStarting org.eclipse.jetty.server.session.HashSessionManager@6acbf29d[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.server.Server@31e2fde6 + org.eclipse.jetty.server.session.HashSessionIdManager@60d1a23c as sessionIdManager[0m
+[0m[[0mdebug[0m] [0mStarting org.eclipse.jetty.server.session.HashSessionIdManager@60d1a23c[0m
+[0m[[0mdebug[0m] [0mSTARTED org.eclipse.jetty.server.session.HashSessionIdManager@60d1a23c[0m
+[0m[[0mdebug[0m] [0mSTARTED org.eclipse.jetty.server.session.HashSessionManager@6acbf29d[0m
+[0m[[0mdebug[0m] [0mStarting org.eclipse.jetty.security.ConstraintSecurityHandler@741280e3[0m
+[0m[[0mdebug[0m] [0mStarting org.eclipse.jetty.servlet.ServletHandler@14843672[0m
+[0m[[0mdebug[0m] [0mfilterNameMap={}[0m
+[0m[[0mdebug[0m] [0mpathFilters=null[0m
+[0m[[0mdebug[0m] [0mservletFilterMap=null[0m
+[0m[[0mdebug[0m] [0mservletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, *.xsp=jsp, /=default, *.JSP=jsp}[0m
+[0m[[0mdebug[0m] [0mservletNameMap={jsp=jsp, default=default}[0m
+[0m[[0mdebug[0m] [0mstarting org.eclipse.jetty.servlet.ServletHandler@14843672[0m
+[0m[[0mdebug[0m] [0mSTARTED org.eclipse.jetty.servlet.ServletHandler@14843672[0m
+[0m[[0mdebug[0m] [0mstarting org.eclipse.jetty.security.ConstraintSecurityHandler@741280e3[0m
+[0m[[0mdebug[0m] [0mSTARTED org.eclipse.jetty.security.ConstraintSecurityHandler@741280e3[0m
+[0m[[0mdebug[0m] [0mstarting org.eclipse.jetty.server.session.SessionHandler@49bee849[0m
+[0m[[0mdebug[0m] [0mSTARTED org.eclipse.jetty.server.session.SessionHandler@49bee849[0m
+[0m[[0mdebug[0m] [0mstarting o.e.j.w.WebAppContext{/,file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp[0m
+[0m[[0mdebug[0m] [0mStarting org.eclipse.jetty.servlet.ErrorPageErrorHandler@1f16ebd3[0m
+[0m[[0mdebug[0m] [0mstarting org.eclipse.jetty.servlet.ErrorPageErrorHandler@1f16ebd3[0m
+[0m[[0mdebug[0m] [0mSTARTED org.eclipse.jetty.servlet.ErrorPageErrorHandler@1f16ebd3[0m
+[0m[[0minfo[0m] [0mstarted o.e.j.w.WebAppContext{/,file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp[0m
+[0m[[0mdebug[0m] [0mStarting default[0m
+[0m[[0mdebug[0m] [0mloaded class org.eclipse.jetty.servlet.DefaultServlet[0m
+[0m[[0mdebug[0m] [0mloaded class org.eclipse.jetty.servlet.DefaultServlet from java.net.URLClassLoader@59fc7921[0m
+[0m[[0mdebug[0m] [0mHolding class org.eclipse.jetty.servlet.DefaultServlet[0m
+[0m[[0mdebug[0m] [0mignoring resource cache configuration, using resourceCache attribute[0m
+[0m[[0mdebug[0m] [0mCache resourceCache=[0m
+[0m[[0mdebug[0m] [0mresource base = null[0m
+[0m[[0mdebug[0m] [0mSTARTED default[0m
+[0m[[0mdebug[0m] [0mStarting jsp[0m
+[0m[[0mdebug[0m] [0mHolding class org.eclipse.jetty.servlet.NoJspServlet[0m
+[0m[[0mdebug[0m] [0mSTARTED jsp[0m
+[0m[[0mdebug[0m] [0mSTARTED o.e.j.w.WebAppContext{/,file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp[0m
+[0m[[0mdebug[0m] [0mstarting org.eclipse.jetty.server.Server@31e2fde6[0m
+[0m[[0mdebug[0m] [0mStarting qtp1178005728{8<=0<=0/254,-1}[0m
+[0m[[0mdebug[0m] [0mSTARTED qtp1178005728{8<=8<=8/254,0}[0m
+[0m[[0mdebug[0m] [0mStarting SelectChannelConnector@0.0.0.0:8080[0m
+[0m[[0mdebug[0m] [0mStarting org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@2b1fe010[0m
+[0m[[0mdebug[0m] [0mSTARTED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@2b1fe010[0m
+[0m[[0minfo[0m] [0mStarted SelectChannelConnector@0.0.0.0:8080[0m
+[0m[[0mdebug[0m] [0mSTARTED SelectChannelConnector@0.0.0.0:8080[0m
+[0m[[0mdebug[0m] [0mSTARTED org.eclipse.jetty.server.Server@31e2fde6[0m
+[0m[[0mdebug[0m] [0mSTOPPED org.eclipse.jetty.server.nio.SelectChannelConnector$ConnectorSelectorManager@2b1fe010[0m
+[0m[[0mdebug[0m] [0mSTOPPED SelectChannelConnector@0.0.0.0:8080[0m
+[0m[[0mdebug[0m] [0mstopping org.eclipse.jetty.server.Server@31e2fde6[0m
+[0m[[0mdebug[0m] [0mSTOPPED qtp1178005728{8<=0<=0/254,0}[0m
+[0m[[0mdebug[0m] [0mSTOPPED org.eclipse.jetty.server.session.HashSessionIdManager@60d1a23c[0m
+[0m[[0mdebug[0m] [0mstopping o.e.j.w.WebAppContext{/,file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp[0m
+[0m[[0mdebug[0m] [0mSTOPPED org.eclipse.jetty.server.session.HashSessionManager@6acbf29d[0m
+[0m[[0mdebug[0m] [0mstopping org.eclipse.jetty.server.session.SessionHandler@49bee849[0m
+[0m[[0mdebug[0m] [0mstopping org.eclipse.jetty.security.ConstraintSecurityHandler@741280e3[0m
+[0m[[0mdebug[0m] [0mstopping org.eclipse.jetty.servlet.ServletHandler@14843672[0m
+[0m[[0mdebug[0m] [0mSTOPPED jsp[0m
+[0m[[0mdebug[0m] [0mSTOPPED default[0m
+[0m[[0mdebug[0m] [0mSTOPPED org.eclipse.jetty.servlet.ServletHandler@14843672[0m
+[0m[[0mdebug[0m] [0mSTOPPED org.eclipse.jetty.security.ConstraintSecurityHandler@741280e3[0m
+[0m[[0mdebug[0m] [0mSTOPPED org.eclipse.jetty.server.session.SessionHandler@49bee849[0m
+[0m[[0mdebug[0m] [0mstopping org.eclipse.jetty.servlet.ErrorPageErrorHandler@1f16ebd3[0m
+[0m[[0mdebug[0m] [0mSTOPPED org.eclipse.jetty.servlet.ErrorPageErrorHandler@1f16ebd3[0m
+[0m[[0minfo[0m] [0mstopped o.e.j.w.WebAppContext{/,file:/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp/},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp[0m
+[0m[[0mdebug[0m] [0mfilterNameMap={}[0m
+[0m[[0mdebug[0m] [0mpathFilters=null[0m
+[0m[[0mdebug[0m] [0mservletFilterMap=null[0m
+[0m[[0mdebug[0m] [0mservletPathMap={*.XSP=jsp, *.JSPX=jsp, *.jspf=jsp, *.jsp=jsp, *.JSPF=jsp, *.jspx=jsp, *.xsp=jsp, /=default, *.JSP=jsp}[0m
+[0m[[0mdebug[0m] [0mservletNameMap={jsp=jsp, default=default}[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.servlet.ServletHandler@14843672 - jsp as servlet[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.servlet.ServletHandler@14843672 - default as servlet[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.servlet.ServletHandler@14843672 - [*.jsp, *.jspf, *.jspx, *.xsp, *.JSP, *.JSPF, *.JSPX, *.XSP]=>jsp as servletMapping[0m
+[0m[[0mdebug[0m] [0mContainer org.eclipse.jetty.servlet.ServletHandler@14843672 - [/]=>default as servletMapping[0m
+[0m[[0mdebug[0m] [0mfilterNameMap={}[0m
+[0m[[0mdebug[0m] [0mpathFilters=null[0m
+[0m[[0mdebug[0m] [0mservletFilterMap=null[0m
+[0m[[0mdebug[0m] [0mservletPathMap=null[0m
+[0m[[0mdebug[0m] [0mservletNameMap={}[0m
+[0m[[0mdebug[0m] [0mSTOPPED o.e.j.w.WebAppContext{/,null},/home/chrs/Desktop/xsbt_alias_bug/web/target/webapp[0m
+[0m[[0mdebug[0m] [0mSTOPPED org.eclipse.jetty.server.Server@31e2fde6[0m
